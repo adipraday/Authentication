@@ -1,0 +1,28 @@
+
+POST http://localhost:5000/register
+Content-Type: application/json 
+
+{
+    "username": "Yoga",
+    "name": "Yoga",
+    "role": "Employee",
+    "level": "20",
+    "aktifSejak": "2024-03-03",
+    "whatsapp": "6282153958966",
+    "telp": "6282153958966",
+    "email": "yoga@gmail.com",
+    "password": "pasdamkoma16",
+    "confPassword": "pasdamkoma16"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json 
+
+{
+    "email": "adipradayozan@gmail.com",
+    "password": "pasdamkoma16"
+}
+
+
+

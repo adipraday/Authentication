@@ -1,0 +1,19 @@
+POST http://localhost:5000/custregister
+Content-Type: application/json 
+
+{
+    "name": "ojan",
+    "whatsapp": "6282153958016",
+    "telp": "6282153958016",
+    "email": "adipradayozan@gmail.com",
+    "password": "pasdamkoma16",
+    "confPassword": "pasdamkoma16"
+}
+
+###
+POST http://localhost:5000/reqotp
+Content-Type: application/json 
+
+{
+    "whatsappNumber": "6281374123456"
+}

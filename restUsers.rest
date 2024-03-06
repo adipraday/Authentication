@@ -1,0 +1,41 @@
+###
+GET http://localhost:5000/users
+Content-Type: application/json 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsIm5hbWUiOiJZb3phbiBBZGlwcmFkYSIsImVtYWlsIjoiYWRpcHJhZGF5b3phbkBnbWFpbC5jb20iLCJpYXQiOjE3MDk0ODkyNzcsImV4cCI6MTcwOTQ4OTI5N30.BkMobzrFNgHl60-5X9dohXoreTjppesv2oXdXeHSD8k
+
+###
+GET http://localhost:5000/user/4
+Content-Type: application/json 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsIm5hbWUiOiJZb3phbiBBZGlwcmFkYSIsImVtYWlsIjoiYWRpcHJhZGF5b3phbkBnbWFpbC5jb20iLCJpYXQiOjE3MDk0ODkyNzcsImV4cCI6MTcwOTQ4OTI5N30.BkMobzrFNgHl60-5X9dohXoreTjppesv2oXdXeHSD8k
+
+###
+POST http://localhost:5000/getuserbyemail
+Content-Type: application/json 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsIm5hbWUiOiJZb3phbiBBZGlwcmFkYSIsImVtYWlsIjoiYWRpcHJhZGF5b3phbkBnbWFpbC5jb20iLCJpYXQiOjE3MDk0ODkyNzcsImV4cCI6MTcwOTQ4OTI5N30.BkMobzrFNgHl60-5X9dohXoreTjppesv2oXdXeHSD8k
+
+{
+    "email": "adipradayozan@gmail.com"
+}
+
+###
+PATCH http://localhost:5000/updateuser
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsIm5hbWUiOiJZb3phbiBBZGlwcmFkYSIsImVtYWlsIjoiYWRpcHJhZGF5b3phbkBnbWFpbC5jb20iLCJpYXQiOjE3MDk1MjI4ODIsImV4cCI6MTcwOTUyMjkwMn0.7MuBmBpvH4dV8RiePYutAPxm_oZiCEe77oQtkERNKPg
+
+{
+    "id": 4,
+    "username": "Ojan U",
+    "name": "Yozan Adiprada U",
+    "role": "LeaderU",
+    "level": "11",
+    "aktifSejak": "2024-03-03",
+    "whatsapp": "62821539580166",
+    "telp": "62821539580166",
+    "email": "adipradayozanU@gmail.com",
+    "status": "Available U"
+}
+
+###
+DELETE  http://localhost:5000/deleteuser/5
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsIm5hbWUiOiJZb3phbiBBZGlwcmFkYSIsImVtYWlsIjoiYWRpcHJhZGF5b3phbkBnbWFpbC5jb20iLCJpYXQiOjE3MDk1MjM5MzAsImV4cCI6MTcwOTUyMzk1MH0.8VkQ0CynTWqZO4oaw9E-dyWDC-0tCL9dLHIjiXZWwFc
